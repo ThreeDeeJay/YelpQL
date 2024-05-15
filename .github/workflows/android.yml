@@ -19,4 +19,4 @@ jobs:
         cache: gradle
 
     - name: Build with Gradle
-      run: "${{github.workspace}}/gradlew.bat"
+      run: "${{github.workspace}}/gradlew.bat build"
